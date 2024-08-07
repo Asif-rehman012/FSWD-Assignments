@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    display: grid;
+    margin: 80px;
+   grid-template-columns: repeat(4,130px); /*we can use repeat (auto,fr or px)*/
+    grid-template-rows: 150px 100px;
+}
+
+.box{
+    border: 2px solid rgb(1, 46, 1);
+    padding: 15px;
+    
+}
+
+#box1{
+    
+    background-color: black;
+    color: aliceblue;
+    
+    text-align: right;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    font-weight: bold;
+    text-align: right ;
+    font-size: 35px;
+    
+}
+
+#box2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#box17{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+#box2,#box3,#box4,#box8,#box12,#box16,#box17,#box18{
+    background-color: rgb(202, 107, 40);
+    color: antiquewhite ;
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+}
